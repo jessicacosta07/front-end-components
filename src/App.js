@@ -4,7 +4,7 @@ function App() {
   return <main>
     <Layout>
       <div>
-        <img source="https://avatars.githubusercontent.com/u/1?v=4" alt="avatar of user" />
+        <img src = "https://avatars.githubusercontent.com/u/1?v=4" alt="avatar of user" />
         <h1>Jessica Costa</h1>
         <h3>Username: </h3>
         <span>jessicacosta07</span>
