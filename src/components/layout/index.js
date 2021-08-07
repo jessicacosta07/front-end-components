@@ -4,11 +4,11 @@ import * as S from './styled';
 
 const Layout = ({ children }) => {
     return (
-        <S.WrapperLayout>
-            <Header />
-            {children}
-        </S.WrapperLayout>
+      <S.WrapperLayout>
+        <Header />
+        {children}
+      </S.WrapperLayout>
     );
-};
-
-export default Layout;
+  };
+  
+  export default Layout;
