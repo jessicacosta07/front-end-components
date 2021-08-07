@@ -1,10 +1,10 @@
 import React, { Children } from 'react';
 
-function Layout() {
+const Layout = ({ children }) => {
     return <section>
         <header>header</header>
         {children}
     </section>;
-}
+};
 
 export default Layout;
