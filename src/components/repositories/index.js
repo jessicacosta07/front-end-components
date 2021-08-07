@@ -1,5 +1,7 @@
 import React from 'react';
 import RepositoryItem from '../repository-item';
+import useGithub from '../../hooks/github-hooks';
+import { useState , useEffect } from 'react';
 import * as S from './styled';
 
 const Repositories = () => {
@@ -13,7 +15,6 @@ const Repositories = () => {
         }
         setHasUserForSearchrepos(githubState.repositories);
 
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [githubState.user.login]);
 
     return (

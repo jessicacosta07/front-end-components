@@ -1,4 +1,5 @@
 import React from 'react';
+import * as S from './styled';
 
 const RepositoryItem = ({ name, linkToRepo, fullName }) => {
     return (
