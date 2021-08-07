@@ -10,6 +10,7 @@ export const GithubContext = createContext({
 const GithubProvider = ({ children }) => {
 
     const [githubState, setGithubState] = useState({
+        loading: false,
         user: {
             login: undefined,
             name: undefined,
@@ -24,6 +25,10 @@ const GithubProvider = ({ children }) => {
         repositories: [],
         starred: [],
     });
+
+    const getUser = () =>{
+
+    }
 
     const contextValue = {
         githubState,

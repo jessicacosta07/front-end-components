@@ -14,7 +14,7 @@ const App = () => {
           <Profile />
           <Repositories />
         </Layout>
-      </GithubProvider>
+      </GithubProvider> 
     </main>
   );
 };
