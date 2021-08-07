@@ -7,6 +7,19 @@ export const WrapperInfoUsers = styled.div`
     justify-content: space-between;
     height: auto;
     margin-left: 8px;
+    height: 200px;
+    h1{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    h4{
+        font-size: 16px;
+        font-weight: bold;
+    }
 `;
 
 export const Wrapper = styled.div`
@@ -26,8 +39,14 @@ export const WrapperStatusCount = styled.div`
 export const WrapperUsername = styled.div`
     display: flex;
     align-items: center;
+    margin-top: 8px;
     h3{
         margin-right: 8px
+    }
+    a{
+        font-size: 18px;
+        color: blue;
+        font-weight: bold;
     }
 `;
 
