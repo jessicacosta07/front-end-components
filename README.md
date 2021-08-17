@@ -1,4 +1,4 @@
-# Componentized front end 
+# Componentized front-end 
 
 # Bootcamp MRV Front End SPA Developer
 
